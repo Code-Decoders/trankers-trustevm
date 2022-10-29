@@ -40,6 +40,7 @@ const Playground = () => {
     const balance = await getTokenBalance();
     const data = await getContractData();
     const ids = data
+      .map((e) => e.returnValues)
       .filter(
         (e) => e.to.toLowerCase() == wallet.accounts[0].address.toLowerCase()
       )

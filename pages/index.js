@@ -22,7 +22,7 @@ export default function Home() {
     const data = await getContractData();
     const ids = [];
 
-    ids = data.map((e) => e.id);
+    ids = data.map((e) => e.returnValues).map((e) => e.id);
     console.log(ids);
     ids = [...new Set(ids)];
     console.log(ids);
@@ -37,6 +37,7 @@ export default function Home() {
         await fetch(`https://renekio.infura-ipfs.io/ipfs/${cid}/${id}.json`)
       ).json();
       const owners = data
+        .map((e) => e.returnValues)
         .filter((e) => e.id === id)
         .map((e) => e.to);
       const prices = await getPrices(id);
@@ -67,6 +68,7 @@ export default function Home() {
     const data = await getContractData();
 
     const owners = data
+      .map((e) => e.returnValues)
       .filter((e) => e.id === id)
       .map((e) => e.to);
     console.log(owners);
