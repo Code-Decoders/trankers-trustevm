@@ -1,9 +1,10 @@
 # Trankers
 
-> Trankers is a community-led online "play-and-earn" gaming platform created by CodeDecoders.
+> Trankers is a tank based community-led online "play-and-earn" gaming platform created by CodeDecoders.
 
 > Shoot turrets and enemy tanks to increase your score. The more you score the more tokens you will earn.
 > With your earned TRT tokens, upgrade your tanks, buy new tanks and buy extra accessories for your tanks.
+> The smart contracts are deployed on the Trust EVM Blockchain
 
  
 ## Features
@@ -13,17 +14,17 @@
 - In Game Token management
 - Simple and fun to play Game
 - Multi-Ownership of NFTs
-- Deployed on CoinEx Smart Chain
+- Deployed on Trust EVM Blockchain
 - Sort the upgrades based on their popularity, strengths and price
 
 ## Deployed Smart Contracts
 
-- [The Inventory NFT Token](https://testnet.coinex.net/address/0xbB073a854C08b342c0Aaa2128D17d313c37a1D8C)
-- [The TRT In-Game-Token](https://testnet.coinex.net/address/0x76bCCA93D28391dc8af7A343C69ABd8221b443dB)
+- [The Inventory NFT Token](https://trustscan.one/address/0xD7a71796213AB860e5f261D4e2eC62767a6A4Dd4)
+- [The TRT In-Game-Token](https://trustscan.one/address/0x81aC77864c5962482cB6E743A2ddecDee8120823)
 
 ## Demo
 
-Live Website (https://trankers-coinex.netlify.app/)
+Live Website (https://trankers-trustevm.netlify.app/)
 
 Youtube Video Demo
 
@@ -52,7 +53,7 @@ Youtube Video Demo
 Clone the project
 
 ```bash
-  git clone https://github.com/Code-Decoders/trankers
+  git clone https://github.com/Code-Decoders/trankers-trustevm
 ```
 
 Go to the project directory
